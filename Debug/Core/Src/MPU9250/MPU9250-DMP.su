@@ -1,0 +1,66 @@
+cmath:106:3:constexpr float std::asin(float)	16	static
+cmath:144:3:constexpr float std::atan2(float, float)	16	static
+MPU9250-DMP.cpp:35:1:MPU9250_DMP::MPU9250_DMP()	16	static
+MPU9250-DMP.cpp:42:13:inv_error_t MPU9250_DMP::begin()	24	static
+MPU9250-DMP.cpp:63:13:inv_error_t MPU9250_DMP::dmpBegin(short unsigned int, short unsigned int)	24	static
+MPU9250-DMP.cpp:98:13:inv_error_t MPU9250_DMP::enableInterrupt(unsigned char)	16	static
+MPU9250-DMP.cpp:103:13:inv_error_t MPU9250_DMP::setIntLevel(unsigned char)	16	static
+MPU9250-DMP.cpp:108:13:inv_error_t MPU9250_DMP::setIntLatched(unsigned char)	16	static
+MPU9250-DMP.cpp:113:7:short int MPU9250_DMP::getIntStatus()	24	static
+MPU9250-DMP.cpp:127:13:inv_error_t MPU9250_DMP::lowPowerAccel(short unsigned int)	16	static
+MPU9250-DMP.cpp:132:13:inv_error_t MPU9250_DMP::setGyroFSR(short unsigned int)	24	static
+MPU9250-DMP.cpp:143:13:inv_error_t MPU9250_DMP::setAccelFSR(unsigned char)	24	static
+MPU9250-DMP.cpp:154:16:short unsigned int MPU9250_DMP::getGyroFSR()	24	static
+MPU9250-DMP.cpp:164:15:unsigned char MPU9250_DMP::getAccelFSR()	24	static
+MPU9250-DMP.cpp:174:16:short unsigned int MPU9250_DMP::getMagFSR()	24	static
+MPU9250-DMP.cpp:184:13:inv_error_t MPU9250_DMP::setLPF(short unsigned int)	16	static
+MPU9250-DMP.cpp:189:16:short unsigned int MPU9250_DMP::getLPF()	24	static
+MPU9250-DMP.cpp:199:13:inv_error_t MPU9250_DMP::setSampleRate(short unsigned int)	16	static
+MPU9250-DMP.cpp:204:16:short unsigned int MPU9250_DMP::getSampleRate()	24	static
+MPU9250-DMP.cpp:214:13:inv_error_t MPU9250_DMP::setCompassSampleRate(short unsigned int)	16	static
+MPU9250-DMP.cpp:219:16:short unsigned int MPU9250_DMP::getCompassSampleRate()	24	static
+MPU9250-DMP.cpp:230:7:float MPU9250_DMP::getGyroSens()	24	static
+MPU9250-DMP.cpp:240:16:short unsigned int MPU9250_DMP::getAccelSens()	24	static
+MPU9250-DMP.cpp:250:7:float MPU9250_DMP::getMagSens()	16	static
+MPU9250-DMP.cpp:255:15:unsigned char MPU9250_DMP::getFifoConfig()	24	static
+MPU9250-DMP.cpp:265:13:inv_error_t MPU9250_DMP::configureFifo(unsigned char)	16	static
+MPU9250-DMP.cpp:270:13:inv_error_t MPU9250_DMP::resetFifo()	16	static
+MPU9250-DMP.cpp:275:16:short unsigned int MPU9250_DMP::fifoAvailable()	24	static
+MPU9250-DMP.cpp:287:13:inv_error_t MPU9250_DMP::updateFifo()	56	static
+MPU9250-DMP.cpp:314:13:inv_error_t MPU9250_DMP::setSensors(unsigned char)	16	static
+MPU9250-DMP.cpp:319:6:bool MPU9250_DMP::dataReady()	24	static
+MPU9250-DMP.cpp:330:13:inv_error_t MPU9250_DMP::update(unsigned char)	32	static
+MPU9250-DMP.cpp:349:5:int MPU9250_DMP::updateAccel()	24	static
+MPU9250-DMP.cpp:363:5:int MPU9250_DMP::updateGyro()	24	static
+MPU9250-DMP.cpp:377:5:int MPU9250_DMP::updateCompass()	24	static
+MPU9250-DMP.cpp:391:13:inv_error_t MPU9250_DMP::updateTemperature()	16	static
+MPU9250-DMP.cpp:396:5:int MPU9250_DMP::selfTest(unsigned char)	40	static
+MPU9250-DMP.cpp:402:7:float MPU9250_DMP::constrain(float, float, float)	24	static
+MPU9250-DMP.cpp:408:13:inv_error_t MPU9250_DMP::dmpLoad()	16	static
+MPU9250-DMP.cpp:413:16:short unsigned int MPU9250_DMP::dmpGetFifoRate()	24	static
+MPU9250-DMP.cpp:422:13:inv_error_t MPU9250_DMP::dmpSetFifoRate(short unsigned int)	16	static
+MPU9250-DMP.cpp:428:13:inv_error_t MPU9250_DMP::dmpUpdateFifo()	72	static
+MPU9250-DMP.cpp:468:13:inv_error_t MPU9250_DMP::dmpEnableFeatures(short unsigned int)	24	static
+MPU9250-DMP.cpp:478:16:short unsigned int MPU9250_DMP::dmpGetEnabledFeatures()	24	static
+MPU9250-DMP.cpp:486:13:inv_error_t MPU9250_DMP::dmpSetTap(short unsigned int, short unsigned int, short unsigned int, unsigned char, short unsigned int, short unsigned int)	32	static
+MPU9250-DMP.cpp:526:15:unsigned char MPU9250_DMP::getTapDir()	16	static
+MPU9250-DMP.cpp:532:15:unsigned char MPU9250_DMP::getTapCount()	16	static
+MPU9250-DMP.cpp:538:6:bool MPU9250_DMP::tapAvailable()	16	static
+MPU9250-DMP.cpp:543:13:inv_error_t MPU9250_DMP::dmpSetOrientation(const signed char*)	24	static
+MPU9250-DMP.cpp:555:15:unsigned char MPU9250_DMP::dmpGetOrientation()	16	static
+MPU9250-DMP.cpp:560:13:inv_error_t MPU9250_DMP::dmpEnable3Quat()	24	static
+MPU9250-DMP.cpp:575:15:long unsigned int MPU9250_DMP::dmpGetPedometerSteps()	24	static
+MPU9250-DMP.cpp:585:13:inv_error_t MPU9250_DMP::dmpSetPedometerSteps(long unsigned int)	16	static
+MPU9250-DMP.cpp:590:15:long unsigned int MPU9250_DMP::dmpGetPedometerTime()	24	static
+MPU9250-DMP.cpp:600:13:inv_error_t MPU9250_DMP::dmpSetPedometerTime(long unsigned int)	16	static
+MPU9250-DMP.cpp:605:7:float MPU9250_DMP::calcAccel(int)	24	static
+MPU9250-DMP.cpp:610:7:float MPU9250_DMP::calcGyro(int)	16	static
+MPU9250-DMP.cpp:615:7:float MPU9250_DMP::calcMag(int)	16	static
+MPU9250-DMP.cpp:620:7:float MPU9250_DMP::calcQuat(long int)	16	static
+MPU9250-DMP.cpp:625:7:float MPU9250_DMP::qToFloat(long int, unsigned char)	40	static
+MPU9250-DMP.cpp:635:6:void MPU9250_DMP::computeEulerAngles(bool)	64	static
+MPU9250-DMP.cpp:668:7:float MPU9250_DMP::computeCompassHeading()	16	static
+MPU9250-DMP.cpp:684:16:short unsigned int MPU9250_DMP::orientation_row_2_scale(const signed char*)	24	static
+MPU9250-DMP.cpp:705:13:void tap_cb(unsigned char, unsigned char)	16	static
+MPU9250-DMP.cpp:712:13:void orient_cb(unsigned char)	16	static
+cmath:155:5:constexpr typename __gnu_cxx::__promote_2<_Tp, _Up>::__type std::atan2(_Tp, _Up) [with _Tp = int; _Up = int]	24	static
